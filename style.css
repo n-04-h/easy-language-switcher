@@ -95,7 +95,7 @@ a:active {
 
 
 
-/******** ___________________Language_______________________ *********/
+/******** --------------------Language------------------------ *********/
 .language-area{
     position:fixed;
     z-index: 999999;
@@ -118,29 +118,14 @@ a:active {
     margin-top: 8px;
 }
 
-/* for the english version (is shorter then the german */
+/* for the english version (is shorter then the german) */
 .text-line-welcome {
     max-width: 238px;
 }
-/* for the english version (is shorter then the german */
+/* for the german version (is longer then the german) */
 .text-line-welcome-german {
     max-width: 280px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .text, .text-p, .text-under {
     color: white;
@@ -164,36 +149,4 @@ a:active {
     position: absolute;
     z-index: -1;
     width: 100%;
-}
-.about-container {
-    display:inline-flex;
-    position: relative;
-    width: 100%;
-    height:96vh;
-    z-index: 1;
-
-    margin: 40vh 24% 100vh;
-}
-.about-img-container {
-    width: 24%;
-    max-width: 20%;
-    height: auto;
-    background-image: url("pic.jpg");
-    background-repeat: no-repeat, repeat;
-    background-size: contain;
-
-}
-.about-text-container {
-    position: relative;
-    color: white;
-    margin-left: 4%;
-    padding-top: 4vh;
-    width: 40%;
-    z-index: 3;
-    text-align: left;
-
-}
-#description{
-margin-top: 24px;
-    display: none;
 }
