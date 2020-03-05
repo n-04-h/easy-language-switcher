@@ -38,10 +38,11 @@ HTML:---------------------------------------------------------------------------
   - portfolio.html    // dient lediglich der demonstration, damit ihr seht, dass das übergeben der Sprache funktioniert
   - contact.html      // dient lediglich der demonstration, damit ihr seht, dass das übergeben der Sprache funktioniert
 
-In diesen Dateien ist überall die selbe css und js datei einzubinden, außerdem ferfügen sie alle über den toggle Button
+In diesen Dateien ist überall die selbe css und js datei einzubinden, außerdem verfügen sie alle über den toggle Button
     - Toggle Button (2x <span>)
       Funktion:
       - Beim drücken des Tags erscheint jeweils der andere Tag
+      
       - Es ändert sich der URL parameter (um es verständlicher zu machen, könnte man auch weg lassen wirkt aber konsistenter)
 
 
