@@ -2,21 +2,20 @@
 Use HTML, CSS and JS (optional jquery) to create a dynamic language switcher for your website
 
 GERMAN:
-Ich habe gerade mein Portfolio gecodet als mir aufgefallen ist, dass ich es gerne sowohl in englisch als auch in deutsch verfügbar machen möchte.
-Als ich mir dann andere Websites/Portfolios angesehen habe fiel mir auf, dass viele Leute auf die Methodik der Separierten Ordner zurückgreifen.
+Ich habe gerade mein Portfolio gecodet, dann ist mir aufgefallen, dass ich es sowohl in englisch als auch in deutsch verfügbar machen möchte. Als ich mir dann andere Websites/Portfolios angeschaut habe fiel mir auf, dass viele dies mittels separierter Verzeichnisse lösen.
 
 URL Beispiel -> www.meinportfolio.com/DE/index.html bzw. -> www.meinportfolio.com/EN/index.html
 
-Diese Methode ist weit verbreitet und auch nicht verwerflich! Dennoch stören mich zwei Dinge daran.
+Diese Methode ist nicht verwerflich! Dennoch stören mich zwei Dinge daran.
 1. Alle Files welche sowohl in englisch als auch in deutsch zugänglich sein sollen müssen doppelt angelegt werden.
 2. Das ändern der Sprache erfordert ein neu laden der Seite.
 
 Wegen diesen zwei "Problemen" habe ich beschlossen eine andere Logik zu verwenden.
-Bestimmt ist mein Ansatz ausbaufähig, wenn jemand aber nach einer simplen Lösung sucht, sollte dieses Beispiel aussreichen.
-Ich bin natürlich offen für feedback und Verbesserungs Vorschläge.
+Bestimmt ist mein Ansatz ausbaufähig, wenn jemand aber nach einer relativ simplen Lösung sucht, sollte dieses Beispiel aussreichen.
+Ich bin natürlich Dankbar für Feedback und Verbesserungs Vorschläge.
 
-
-Was braucht ihr und was ist optional:
+ 
+Was braucht ihr dafür und was ist optional:
 
 wichtig:
  - html
@@ -33,17 +32,16 @@ Ich versuche die Inhalte und die damit verbundene Logik kurz zusammenzufassen:
 HTML:-------------------------------------------------------------------------------------------------------------------------
 
 4 files:
-  - index.html
+  - index.html        // hier ist ein zusätzliche typeIt Animation verbaut welche anfangs für schwierigkeiten sorgte.
   - about.html        // dient lediglich der demonstration, damit ihr seht, dass das übergeben der Sprache funktioniert
   - portfolio.html    // dient lediglich der demonstration, damit ihr seht, dass das übergeben der Sprache funktioniert
   - contact.html      // dient lediglich der demonstration, damit ihr seht, dass das übergeben der Sprache funktioniert
 
-In diesen Dateien ist überall die selbe css und js datei einzubinden, außerdem verfügen sie alle über den toggle Button
-    - Toggle Button (2x <span>)
-      Funktion:
-      - Beim drücken des Tags erscheint jeweils der andere Tag
-      
-      - Es ändert sich der URL parameter (um es verständlicher zu machen, könnte man auch weg lassen wirkt aber konsistenter)
+In diesen Dateien ist überall:
+ - die selbe css und js Datei eingebunden
+ - außerdem verfügen sie alle über den Sprachen Toggle-Button
+   - Beim drücken des Tags erscheint jeweils der andere Tag
+   - außerdem ändert sich der URL parameter (um es verständlicher zu machen, könnte man auch weg lassen wirkt aber konsistenter).
 
 
 CSS:--------------------------------------------------------------------------------------------------------------------------
