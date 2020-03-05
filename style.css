@@ -98,16 +98,15 @@ a:active {
 /******** --------------------Language------------------------ *********/
 .language-area{
     position:fixed;
+    display:none;
     z-index: 999999;
     color:white;
     cursor:pointer;
+    top:44px;
     right: 6%;
 }
 .language-area:hover{
     color: #2DE22D;
-}
-.language-normal{
-    top:44px;
 }
 
 /******** ___________________Under-line_______________________ *********/
