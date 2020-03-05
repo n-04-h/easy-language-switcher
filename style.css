@@ -1,0 +1,199 @@
+/********************************************** GENERALLY ******************************************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: Consolas;
+    width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+a:link {
+    text-decoration: none;
+    color:#999;
+}
+a:visited {
+    text-decoration: none;
+    color:#999
+}
+a:active {
+    text-decoration: none;
+    color: #2DE22D;
+    transition: all 4s;
+}
+.display-none {
+    display: none;
+}
+.myContainerWelcome {
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/******** Logo *********/
+#logo-area {
+    top: 32px;
+    padding: 0;
+    position: fixed;
+    z-index: 3;
+    left: 2%;
+}
+/******** Navigation ********/
+.nav-normal {
+    padding: 22vh 0 0 0;
+    text-align: center;
+}
+.nav-normal li {
+    display: inline;
+    font-size: 32px;
+    font-weight: bold;
+    transition: all .2s;
+}
+.nav-normal a {
+    letter-spacing: 0.08em;
+    margin-left: -2.5%;
+    display: inline-block;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.nav-normal a:hover{
+    color:#fff;
+}
+/********************************************** WELCOME ******************************************************/
+#welcome-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+
+}
+#welcome-box {
+    z-index: 2;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 400px;
+    color: white;
+    position: absolute;
+
+
+}
+.text {
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+#firstHello {
+    width: 240px;
+}
+#hello-welcome {
+    padding-top: 8px;
+    letter-spacing: 4px;
+}
+
+
+
+/******************************* ALL THIS STUFF BELOW IS ONLY OPTIONAL STYLING *******************************/
+
+
+
+/******** ___________________Language_______________________ *********/
+.language-area{
+    position:fixed;
+    z-index: 999999;
+    color:white;
+    cursor:pointer;
+    right: 6%;
+}
+.language-area:hover{
+    color: #2DE22D;
+}
+.language-normal{
+    top:44px;
+}
+
+/******** ___________________Under-line_______________________ *********/
+#line{
+    display: none;
+    border: 2px solid #2DE22D;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+/* for the english version (is shorter then the german */
+.text-line-welcome {
+    max-width: 238px;
+}
+/* for the english version (is shorter then the german */
+.text-line-welcome-german {
+    max-width: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text, .text-p, .text-under {
+    color: white;
+    margin-top: 12px;
+}
+
+/********************************************** CONTACT ******************************************************/
+#contact-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+/********************************************** PORTFOLIO ******************************************************/
+#portfolio-background {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+}
+/************************************************* ABOUT ME ***************************************************/
+#about-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.about-container {
+    display:inline-flex;
+    position: relative;
+    width: 100%;
+    height:96vh;
+    z-index: 1;
+
+    margin: 40vh 24% 100vh;
+}
+.about-img-container {
+    width: 24%;
+    max-width: 20%;
+    height: auto;
+    background-image: url("pic.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
+
+}
+.about-text-container {
+    position: relative;
+    color: white;
+    margin-left: 4%;
+    padding-top: 4vh;
+    width: 40%;
+    z-index: 3;
+    text-align: left;
+
+}
+#description{
+margin-top: 24px;
+    display: none;
+}
